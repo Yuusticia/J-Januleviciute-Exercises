@@ -6,6 +6,13 @@ let k1 = 17;
 let k2 = 25;
 
 //padaryt funkc
+if(k1 < 10){
+    console.log("This bus is ...");
+} else if(k2 < 10){
+    console.log("This bus is ...");
+} else {
+    console.log("0 bus < 10 people.");
+}
 
 console.log('Bendrai pervežtų keleivių skaičius = ' 
 + (k1+k2)+
