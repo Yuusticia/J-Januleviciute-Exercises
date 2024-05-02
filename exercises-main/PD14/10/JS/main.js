@@ -1,6 +1,8 @@
-const myArray = [5, 9, 17];
-
-for (let i = 0; i < 3; i++) {
-    console.log(myArray[i]);
-
+function nuoiki() {
+  result = [];
+  for (let i = 100; i <= 200; i++) {
+    result.push(i);
   }
+  return result;
+}
+console.log(nuoiki());

@@ -1,7 +1,5 @@
 let line = "JavaScript for all";
 
-//edit
-
 const stack = [];
 
 for (let i = 0; i < line.length; i++) {

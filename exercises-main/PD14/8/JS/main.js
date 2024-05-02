@@ -1,8 +1,3 @@
-
-
-
-//edit
-
 let i = 0;
 while (i <= 10) {
     let x = 0;

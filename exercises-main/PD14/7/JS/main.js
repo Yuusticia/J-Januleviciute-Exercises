@@ -1,14 +1,12 @@
 let n = 1997;
 let m = 2018;
 
-//edit
-
-function arKeliamiejiMetai(metai) {
-    return (metai % 4 === 0 && metai % 100 !== 0) || metai % 400 === 0;
+function arKeliamieji(yr) {
+    return (yr % 4 === 0 && yr % 100 !== 0) || yr % 400 === 0;
 }
 
-for (let metai = n; metai <= m; metai++) {
-    if (arKeliamiejiMetai(metai)) {
-        console.log(metai);
+for (let yr = n; yr <= m; yr++) {
+    if (arKeliamieji(yr)) {
+        console.log(yr);
     }
 }
